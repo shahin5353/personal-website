@@ -1,0 +1,134 @@
+body{
+  font-family: 'Fugaz One', cursive;
+  margin: auto;
+}
+section{
+  overflow: hidden;
+}
+.half-width h1{
+  color: blue;
+  font-size: 70px;
+}
+.half-width h2{
+  font-size: 60px;
+}
+.half-width h3{
+  font-size: 40px;
+}
+.half-width p{
+  font-size: 20px;
+  color: gray;
+}
+  .half-width{
+    width: 40%;
+    float: left;
+    margin-top: 5%;
+  }
+  .text-area{
+      padding-top: 10%;
+      padding-left: 15%;
+  }
+  .half-width img{
+    max-width: 100%;
+  }
+  .top-banner{
+    background-image: url("../images/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 5%;
+  }
+  .link-button{
+    text-decoration:none;
+    background-image: linear-gradient(90deg,#06f3e1,#1c0eef);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 800;
+    display: inline-block;
+    transition: .3s all ease-in-out;
+  }
+  .link-button:hover{
+    box-shadow: 0px 5px 10px #c3c312;
+    transform: translateY(-2px);
+  }
+  .dream-section{
+    background-image: url("../images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 5%;
+  }
+  #dream-image{
+  padding-left: 20%;
+  }
+  .dream-text{
+    padding-top: 12%;
+    padding-left: 15%;
+    text-align: justify;
+  }
+  .work-section{
+    background-image: url("../images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 5%;
+  }
+  .work-section h2{
+    font-size: 60px;
+    text-align: center;
+    margin: 50px 0px;
+  }
+  .work-part{
+    width:25%;
+    float: left;
+    padding-left: 5%;
+    margin-left: 2%;
+  }
+  .work-part img{
+    width: 100%;
+  }
+  .work-part:hover img{
+   opacity: 0.7;
+  }
+  .work-slide{
+  }
+  .client-section{
+    text-align: center;
+    margin-bottom: 5% ;
+  }
+  .client-opinion{
+    width: 35%;
+    margin: auto;
+    padding-bottom: 2%;
+  }
+  .client-opinion h2{
+    font-size: 60px;
+  }
+  .client-opinion h3{
+    font-size: 40px;
+    margin-bottom: 0;
+  }
+  .client-opinion h4{
+    margin-top: 0;
+    font-size: 15px;
+    color: gray;
+  }
+  .client-opinion p{
+    font-size: 17px;
+  }
+  .box{
+    width: 40%;
+    margin: auto;
+    background-image: linear-gradient(45deg,#a91e58,#ea0ccf);
+    padding: 15px;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+  }
+  .box p{
+    font-size: 20px;
+  }
+  .box h3{
+    font-size: 40px;
+  }
+  footer{
+    text-align: center;
+  }
